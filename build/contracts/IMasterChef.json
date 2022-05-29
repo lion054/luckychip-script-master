@@ -1,0 +1,281 @@
+{
+  "contractName": "IMasterChef",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_pid",
+          "type": "uint256"
+        }
+      ],
+      "name": "updateBonus",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "metadata": "{\"compiler\":{\"version\":\"0.6.12+commit.27d51765\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"_pid\",\"type\":\"uint256\"}],\"name\":\"updateBonus\",\"outputs\":[],\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"kind\":\"dev\",\"methods\":{\"updateBonus(uint256)\":{\"details\":\"Update bonus.\"}},\"version\":1},\"userdoc\":{\"kind\":\"user\",\"methods\":{},\"version\":1}},\"settings\":{\"compilationTarget\":{\"/home/ubuntu/defi/luckychip/dice/contracts/libs/IMasterChef.sol\":\"IMasterChef\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"metadata\":{\"bytecodeHash\":\"ipfs\"},\"optimizer\":{\"enabled\":true,\"runs\":999999},\"remappings\":[]},\"sources\":{\"/home/ubuntu/defi/luckychip/dice/contracts/libs/IMasterChef.sol\":{\"keccak256\":\"0xc3d4f7d6371ce100b8f67dc824a400af6b6cd60ab2a5bc34a0641c7f65401b2d\",\"license\":\"MIT\",\"urls\":[\"bzz-raw://3a11b6c8a4ba2059f7b87c520045ca0e34ae979948a8ca3d1e4d69fc8b781fa7\",\"dweb:/ipfs/QmPxTvpf2g86VuAx7ejwEs5y4akTmyBGcjX2rE8AFn3DVg\"]}},\"version\":1}",
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "immutableReferences": {},
+  "sourceMap": "",
+  "deployedSourceMap": "",
+  "source": "// SPDX-License-Identifier: MIT\n\npragma solidity 0.6.12;\n\ninterface IMasterChef {\n    /**\n     * @dev Update bonus.\n     */\n    function updateBonus(uint256 _pid) external;\n}\n",
+  "sourcePath": "/home/ubuntu/defi/luckychip/dice/contracts/libs/IMasterChef.sol",
+  "ast": {
+    "absolutePath": "/home/ubuntu/defi/luckychip/dice/contracts/libs/IMasterChef.sol",
+    "exportedSymbols": {
+      "IMasterChef": [
+        4234
+      ]
+    },
+    "id": 4235,
+    "license": "MIT",
+    "nodeType": "SourceUnit",
+    "nodes": [
+      {
+        "id": 4227,
+        "literals": [
+          "solidity",
+          "0.6",
+          ".12"
+        ],
+        "nodeType": "PragmaDirective",
+        "src": "33:23:6"
+      },
+      {
+        "abstract": false,
+        "baseContracts": [],
+        "contractDependencies": [],
+        "contractKind": "interface",
+        "documentation": null,
+        "fullyImplemented": false,
+        "id": 4234,
+        "linearizedBaseContracts": [
+          4234
+        ],
+        "name": "IMasterChef",
+        "nodeType": "ContractDefinition",
+        "nodes": [
+          {
+            "body": null,
+            "documentation": {
+              "id": 4228,
+              "nodeType": "StructuredDocumentation",
+              "src": "86:37:6",
+              "text": " @dev Update bonus."
+            },
+            "functionSelector": "9f8dbb7b",
+            "id": 4233,
+            "implemented": false,
+            "kind": "function",
+            "modifiers": [],
+            "name": "updateBonus",
+            "nodeType": "FunctionDefinition",
+            "overrides": null,
+            "parameters": {
+              "id": 4231,
+              "nodeType": "ParameterList",
+              "parameters": [
+                {
+                  "constant": false,
+                  "id": 4230,
+                  "mutability": "mutable",
+                  "name": "_pid",
+                  "nodeType": "VariableDeclaration",
+                  "overrides": null,
+                  "scope": 4233,
+                  "src": "149:12:6",
+                  "stateVariable": false,
+                  "storageLocation": "default",
+                  "typeDescriptions": {
+                    "typeIdentifier": "t_uint256",
+                    "typeString": "uint256"
+                  },
+                  "typeName": {
+                    "id": 4229,
+                    "name": "uint256",
+                    "nodeType": "ElementaryTypeName",
+                    "src": "149:7:6",
+                    "typeDescriptions": {
+                      "typeIdentifier": "t_uint256",
+                      "typeString": "uint256"
+                    }
+                  },
+                  "value": null,
+                  "visibility": "internal"
+                }
+              ],
+              "src": "148:14:6"
+            },
+            "returnParameters": {
+              "id": 4232,
+              "nodeType": "ParameterList",
+              "parameters": [],
+              "src": "171:0:6"
+            },
+            "scope": 4234,
+            "src": "128:44:6",
+            "stateMutability": "nonpayable",
+            "virtual": false,
+            "visibility": "external"
+          }
+        ],
+        "scope": 4235,
+        "src": "58:116:6"
+      }
+    ],
+    "src": "33:142:6"
+  },
+  "legacyAST": {
+    "attributes": {
+      "absolutePath": "/home/ubuntu/defi/luckychip/dice/contracts/libs/IMasterChef.sol",
+      "exportedSymbols": {
+        "IMasterChef": [
+          4234
+        ]
+      },
+      "license": "MIT"
+    },
+    "children": [
+      {
+        "attributes": {
+          "literals": [
+            "solidity",
+            "0.6",
+            ".12"
+          ]
+        },
+        "id": 4227,
+        "name": "PragmaDirective",
+        "src": "33:23:6"
+      },
+      {
+        "attributes": {
+          "abstract": false,
+          "baseContracts": [
+            null
+          ],
+          "contractDependencies": [
+            null
+          ],
+          "contractKind": "interface",
+          "documentation": null,
+          "fullyImplemented": false,
+          "linearizedBaseContracts": [
+            4234
+          ],
+          "name": "IMasterChef",
+          "scope": 4235
+        },
+        "children": [
+          {
+            "attributes": {
+              "body": null,
+              "functionSelector": "9f8dbb7b",
+              "implemented": false,
+              "isConstructor": false,
+              "kind": "function",
+              "modifiers": [
+                null
+              ],
+              "name": "updateBonus",
+              "overrides": null,
+              "scope": 4234,
+              "stateMutability": "nonpayable",
+              "virtual": false,
+              "visibility": "external"
+            },
+            "children": [
+              {
+                "attributes": {
+                  "text": " @dev Update bonus."
+                },
+                "id": 4228,
+                "name": "StructuredDocumentation",
+                "src": "86:37:6"
+              },
+              {
+                "children": [
+                  {
+                    "attributes": {
+                      "constant": false,
+                      "mutability": "mutable",
+                      "name": "_pid",
+                      "overrides": null,
+                      "scope": 4233,
+                      "stateVariable": false,
+                      "storageLocation": "default",
+                      "type": "uint256",
+                      "value": null,
+                      "visibility": "internal"
+                    },
+                    "children": [
+                      {
+                        "attributes": {
+                          "name": "uint256",
+                          "type": "uint256"
+                        },
+                        "id": 4229,
+                        "name": "ElementaryTypeName",
+                        "src": "149:7:6"
+                      }
+                    ],
+                    "id": 4230,
+                    "name": "VariableDeclaration",
+                    "src": "149:12:6"
+                  }
+                ],
+                "id": 4231,
+                "name": "ParameterList",
+                "src": "148:14:6"
+              },
+              {
+                "attributes": {
+                  "parameters": [
+                    null
+                  ]
+                },
+                "children": [],
+                "id": 4232,
+                "name": "ParameterList",
+                "src": "171:0:6"
+              }
+            ],
+            "id": 4233,
+            "name": "FunctionDefinition",
+            "src": "128:44:6"
+          }
+        ],
+        "id": 4234,
+        "name": "ContractDefinition",
+        "src": "58:116:6"
+      }
+    ],
+    "id": 4235,
+    "name": "SourceUnit",
+    "src": "33:142:6"
+  },
+  "compiler": {
+    "name": "solc",
+    "version": "0.6.12+commit.27d51765.Emscripten.clang"
+  },
+  "networks": {},
+  "schemaVersion": "3.4.1",
+  "updatedAt": "2021-09-03T04:54:33.607Z",
+  "devdoc": {
+    "kind": "dev",
+    "methods": {
+      "updateBonus(uint256)": {
+        "details": "Update bonus."
+      }
+    },
+    "version": 1
+  },
+  "userdoc": {
+    "kind": "user",
+    "methods": {},
+    "version": 1
+  }
+}
